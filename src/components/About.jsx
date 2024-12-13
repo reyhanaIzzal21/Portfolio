@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
-        I have a deep passion for coding and software development, driven by a strong desire to continuously learn and grow.
+        I am a 16-year-old student at SMK PGRI 2 Ponorogo, majoring in Software Engineering. I have a deep passion for coding and software development, driven by a strong desire to continuously learn and grow.
         Focused, ambitious, creative, and competitive, I concentrate on exploring technologies like crypto, blockchain, and web3, while strengthening my coding skills through various projects.
       </motion.p>
 
