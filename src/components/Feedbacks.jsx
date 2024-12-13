@@ -24,7 +24,7 @@ const ToolCard = ({
       </p>
       <p id="text_1"
         className='custom-text-outline text-end relative [transform:translateX(-1000px)] text-transparent tracking-wider text-[3rem] md:text-[5rem] uppercase font-extrabold whitespace-nowrap'>
-        GSAP.<span className="span-3 text-green-600">GSAP</span>.GSAP.<span className="span-3 text-green-600">GSAP</span>.GSAP.<span className="span-3 text-green-600">GSAP</span>.
+        GSAP.<span className="span-3 text-green-600">GSAP</span>.GSAP.<span className="span-3 text-green-600">GSAP</span>.GSAP.<span className="span-3 text-green-600">GSAP</span>.GSAP.<span className="span-3 text-green-600">GSAP</span>
       </p>
       <p id="text_2"
         className='custom-text-outline text-start relative [transform:translateX(0px)] text-transparent tracking-wider text-[3rem] md:text-[5rem] uppercase font-extrabold whitespace-nowrap'>

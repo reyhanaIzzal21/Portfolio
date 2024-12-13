@@ -16,7 +16,6 @@ import {
   mysql,
   php,
   canva,
-  capcut,
   zentify,
   mycourse,
 } from "../assets";
@@ -104,10 +103,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "Capcut",
-    icon: capcut,
-  },
 ];
 
 const experiences = [
@@ -118,10 +113,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisting in website development using the Laravel framework based on project requirements.",
+      "Collaborating with the team to complete web development tasks efficiently and on time.",
+      "Performing debugging and fixing issues in the web applications.",
+      "Ensuring the produced code meets standards and is easy for the team to understand.",
     ],
   },
   // {
@@ -199,7 +194,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -231,27 +226,6 @@ const projects = [
     image: mycourse,
     source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 export { services, technologies, experiences, projects };

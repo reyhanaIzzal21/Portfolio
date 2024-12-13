@@ -23,7 +23,6 @@ import laravel from "./tech/laravel.png";
 import mysql from "./tech/mysql.png";
 import php from "./tech/php.png";
 import canva from "./tech/canva.png";
-import capcut from "./tech/capcut.png";
 
 import hummatech from "./company/hummatech.png";
 
@@ -32,7 +31,6 @@ import mycourse from "./mycourse.png";
 
 export {
   logo,
-
   backend,
   creator,
   mobile,
@@ -40,7 +38,6 @@ export {
   github,
   menu,
   close,
-
   css,
   figma,
   git,
@@ -53,10 +50,7 @@ export {
   mysql,
   php,
   canva,
-  capcut,
-  
   hummatech,
-  
   zentify,
   mycourse,
 };

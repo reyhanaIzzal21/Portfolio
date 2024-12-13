@@ -47,13 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
-        My name is Reyhana Izzal Muttaqim, a 16-year-old student who is passionate about
-        exploring the world of technology. At SMK PGRI 2 Ponorogo, I have chosen the software
-        engineering stream to hone my programming skills. With a sincere enthusiasm for
-        cryptocurrencies, I also have a strong vision. I aspire to establish a family office and a
-        technology company that focuses on creating a positive impact on the world, particularly in the
-        development of technology in Indonesia. With deep understanding and unwavering determination, I
-        am ready to face future challenges and become a influential player in the technology industry.
+        I have a deep passion for coding and software development, driven by a strong desire to continuously learn and grow.
+        Focused, ambitious, creative, and competitive, I concentrate on exploring technologies like crypto, blockchain, and web3, while strengthening my coding skills through various projects.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap justify-center gap-10'>

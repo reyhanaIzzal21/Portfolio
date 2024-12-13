@@ -18,7 +18,13 @@ const App = () => {
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
+          <div className="flex flex-col items-center justify-center w-full h-full py-6">
+            <p className="text-white text-center text-xs">
+              Copyright &copy; 2023 - Reyhana izzal muttaqim
+            </p>
+          </div>
         </div>
+
       </div>
     </BrowserRouter>
   );
