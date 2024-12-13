@@ -294,7 +294,7 @@
   height: 100%;
   border: none;
   background-color: transparent;
-  font-size: 23px;
+  font-size: 30px;
   transition-duration: 0.3s;
   transition-timing-function: cubic-bezier(0.68, -0.85, 0.265, 1.55);
 }

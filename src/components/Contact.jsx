@@ -126,7 +126,7 @@ const Contact = () => {
           <p className="text-md font-semibold relative text-center w-[40px] -bottom-8 bg-black-100">OR</p>
         </div>
         <div class="parent">
-          <a href="https://www.twitter.com" title="Twitter">
+          <a href="https://x.com/Vanoisee?t=m5qkKJnVz7FOgAOlFz2aEA&s=09" title="Twitter">
             <div class="child child-1">
               <button class="button btn-1">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#1e90ff">
@@ -137,7 +137,7 @@ const Contact = () => {
               </button>
             </div>
           </a>
-          <a href="https://www.instagram.com" title="Instagram">
+          <a href=" https://www.instagram.com/reyhanaizzall/profilecard/?igsh=MXV6YXhqYjh6ZW5jNA==" title="Instagram">
             <div class="child child-2">
               <button class="button btn-2">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#ff00ff">
@@ -163,7 +163,7 @@ const Contact = () => {
               </button>
             </div>
           </a>
-          <a href="https://www.whatapp.com" title="Whatsapp">
+          <a href="https://wa.me/6288991162533?text=Halo,%20saya%20tertarik%20untuk%20menghubungi%20anda!" target="_blank" rel="noopener noreferrer">
             <div class="child child-4">
               <button class="button btn-4">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#25D366">
@@ -172,7 +172,7 @@ const Contact = () => {
               </button>
             </div>
           </a>
-          <a href="https://www.whatapp.com" title="Tiktok">
+          <a href="https://www.tiktok.com/@vanoise?_t=8sBmWOtQeBe&_r=1" title="Tiktok">
             <div class="child child-5">
               <button class="button btn-5">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#000000">
