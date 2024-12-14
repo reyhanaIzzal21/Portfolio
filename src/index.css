@@ -305,3 +305,10 @@
   transform: translate3d(0px, 20px, 30px) perspective(80px) rotateX(-60deg)
     translateY(2px) translateZ(10px);
 }
+
+.bg-hero {
+  background-image: url("/src/assets/herobg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
