@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { herofoto } from "../assets";
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -69,7 +70,7 @@ const Hero = () => {
       {isMobile ? (
         <div className="w-full h-[100vh] flex justify-center items-center pt-[100px]">
           <img
-            src="/src/assets/hero-foto.png"
+            src={herofoto}
             alt="computer"
             className="hero-foto w-[80%]"
           />
