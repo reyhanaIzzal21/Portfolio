@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        'service_spl7kuc',
+        'template_pajsh2l',
         {
           from_name: form.name,
           to_name: "Reyhana izzal",
@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "izzalm.008@gmail.com",
           message: form.message,
         },
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        'ECXmQowND0Iu2OiUf'
       )
       .then(
         () => {
