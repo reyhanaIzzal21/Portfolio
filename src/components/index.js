@@ -3,7 +3,6 @@ import {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
-  EarthMobileCanvas
 } from "./canvas";
 import Hero from "./Hero";
 import Navbar from "./Navbar";

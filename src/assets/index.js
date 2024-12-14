@@ -29,6 +29,8 @@ import hummatech from "./company/hummatech.png";
 import zentify from "./zentify.png";
 import mycourse from "./mycourse.png";
 
+import herofoto from "./hero-foto.png";
+
 export {
   logo,
   backend,
@@ -53,4 +55,5 @@ export {
   hummatech,
   zentify,
   mycourse,
+  herofoto,
 };
