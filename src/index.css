@@ -308,11 +308,11 @@
 
 .shadow-text{
   text-shadow: 0 0 10px #915EFF, 
+  0 0 100px #915EFF, 
+  0 0 200px #915EFF, 
   0 0 300px #915EFF, 
   0 0 400px #915EFF, 
-  0 0 500px #915EFF, 
-  0 0 600px #915EFF, 
-  0 0 700px #915EFF;
+  0 0 500px #915EFF;
 }
 
 /* .bg-hero {
