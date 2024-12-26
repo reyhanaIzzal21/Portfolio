@@ -11,10 +11,10 @@ import {
   git,
   figma,
   hummatech,
-  bootstrap,
-  laravel,
+  bootstrap2,
+  laravel2,
   mysql,
-  php,
+  php2,
   canva,
   zentify,
   mycourse,
@@ -69,15 +69,15 @@ const technologies = [
   },
   {
     name: "Laravel",
-    icon: laravel,
+    icon: laravel2,
   },
   {
     name: "PHP",
-    icon: php,
+    icon: php2,
   },
   {
     name: "Bootstrap",
-    icon: bootstrap,
+    icon: bootstrap2,
   },
   {
     name: "Tailwind CSS",
