@@ -18,10 +18,10 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 // import typescript from "./tech/typescript.png";
 // import threejs from "./tech/threejs.svg";
-import bootstrap from "./tech/bootstrap.png";
-import laravel from "./tech/laravel.png";
+import bootstrap from "./tech/bootstrap2.png";
+import laravel from "./tech/laravel2.png";
 import mysql from "./tech/mysql.png";
-import php from "./tech/php.png";
+import php from "./tech/php2.png";
 import canva from "./tech/canva.png";
 
 import hummatech from "./company/hummatech.png";
