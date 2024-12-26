@@ -18,10 +18,10 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 // import typescript from "./tech/typescript.png";
 // import threejs from "./tech/threejs.svg";
-import bootstrap2 from "./tech/bootstrap2.png";
-import laravel2 from "./tech/laravel2.png";
+import bootstrap from "./tech/bootstrap2.png";
+import laravel from "./tech/laravel2.png";
 import mysql from "./tech/mysql.png";
-import php2 from "./tech/php2.png";
+import php from "./tech/php2.png";
 import canva from "./tech/canva.png";
 
 import hummatech from "./company/hummatech.png";
@@ -47,10 +47,10 @@ export {
   javascript,
   reactjs,
   tailwind,
-  bootstrap2,
-  laravel2,
+  bootstrap,
+  laravel,
   mysql,
-  php2,
+  php,
   canva,
   hummatech,
   zentify,

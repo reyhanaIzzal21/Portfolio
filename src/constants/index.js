@@ -11,10 +11,10 @@ import {
   git,
   figma,
   hummatech,
-  bootstrap2,
-  laravel2,
+  bootstrap,
+  laravel,
   mysql,
-  php2,
+  php,
   canva,
   zentify,
   mycourse,
@@ -54,7 +54,7 @@ const services = [
   },
 ];
 
-const technologies = [
+const tecnologyOne = [
   {
     name: "HTML 5",
     icon: html,
@@ -67,6 +67,20 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+];
+const tecnologyTwo = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -90,18 +104,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "Laravel",
-    icon: laravel2,
-  },
-  {
-    name: "PHP",
-    icon: php2,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap2,
   },
 ];
 
@@ -189,4 +191,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, tecnologyOne, tecnologyTwo, experiences, projects };

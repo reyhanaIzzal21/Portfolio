@@ -64,7 +64,7 @@ const Feedbacks = () => {
     });
   }, []);
   return (
-    <div className={`mt-8`}>
+    <div className={`sm:mt-16 mt-10`}>
       <div
         className={`${styles.padding} min-h-[200px]`}
       >
