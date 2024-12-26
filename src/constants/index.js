@@ -67,18 +67,6 @@ const technologies = [
   //   name: "JavaScript",
   //   icon: javascript,
   // },
-  // {
-  //   name: "Laravel",
-  //   icon: laravel2,
-  // },
-  // {
-  //   name: "PHP",
-  //   icon: php2,
-  // },
-  // {
-  //   name: "Bootstrap",
-  //   icon: bootstrap2,
-  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -102,6 +90,18 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "Laravel",
+    icon: laravel2,
+  },
+  {
+    name: "PHP",
+    icon: php2,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap2,
   },
 ];
 
