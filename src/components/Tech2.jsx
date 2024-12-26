@@ -7,7 +7,7 @@ import { tecnologyTwo } from "../constants";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 
-const Tech = () => {
+const Tech2 = () => {
   return (
     <div className='mt-[2rem] flex flex-row flex-wrap justify-center gap-10'>
       {tecnologyTwo.map((technology) => (
@@ -19,4 +19,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech2, "");

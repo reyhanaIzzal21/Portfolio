@@ -7,7 +7,7 @@ import { tecnologyOne } from "../constants";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 
-const Tech = () => {
+const Tech1 = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="sm:mt-16 mt-10">
@@ -30,4 +30,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech1, "");
