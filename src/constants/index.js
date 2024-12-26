@@ -55,30 +55,30 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "Laravel",
-    icon: laravel2,
-  },
-  {
-    name: "PHP",
-    icon: php2,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap2,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "Laravel",
+  //   icon: laravel2,
+  // },
+  // {
+  //   name: "PHP",
+  //   icon: php2,
+  // },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap2,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
