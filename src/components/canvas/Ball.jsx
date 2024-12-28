@@ -37,7 +37,7 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas2 = ({ icon }) => {
+const BallCanvas = ({ icon }) => {
   return (
     <Canvas
       frameloop='demand'
@@ -54,4 +54,4 @@ const BallCanvas2 = ({ icon }) => {
   );
 };
 
-export default BallCanvas2;
+export default BallCanvas;

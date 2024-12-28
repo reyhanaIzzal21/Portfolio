@@ -54,13 +54,13 @@ const services = [
   },
 ];
 
-const tecnologyOne = [
+const tecnologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -79,8 +79,6 @@ const tecnologyOne = [
     name: "Bootstrap",
     icon: bootstrap,
   },
-];
-const tecnologyTwo = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -98,11 +96,11 @@ const tecnologyTwo = [
     icon: canva,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
 ];
@@ -191,4 +189,4 @@ const projects = [
   },
 ];
 
-export { services, tecnologyOne, tecnologyTwo, experiences, projects };
+export { services, tecnologies, experiences, projects };

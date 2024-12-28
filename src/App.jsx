@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech1, Tech2, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 const App = () => {
   return (
@@ -12,8 +12,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech1 />
-        <Tech2 />
+        <Tech />
         <Works />
         <Feedbacks />
         <div className='relative z-0'>
@@ -21,7 +20,7 @@ const App = () => {
           <StarsCanvas />
           <div className="flex flex-col items-center justify-center w-full h-full py-6">
             <p className="text-white text-center text-xs">
-              Copyright &copy; 2023 - Reyhana izzal muttaqim
+              Copyright &copy; 2025 - Reyhana izzal muttaqim
             </p>
           </div>
         </div>
