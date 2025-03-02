@@ -28,7 +28,7 @@ const Hero = () => {
     if (window.Typed) {
       const typed = new window.Typed("#text", {
         strings: [
-          "I'm Front-End Developer based in Indonesia",
+          "I'm Web Developer based in Indonesia",
           "Let's create your website with me",
         ],
         typeSpeed: 50,

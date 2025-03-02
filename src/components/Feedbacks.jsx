@@ -43,30 +43,30 @@ const Feedbacks = () => {
     gsap.to("#text_1", {
       scrollTrigger: {
         trigger: "#text_1",
-        start: "top bottom", 
-        end: "top top", 
-        scrub: 1, 
+        start: "top bottom",
+        end: "top top",
+        scrub: 1,
       },
-      x: -200, 
-      duration: 1, 
+      x: -200,
+      duration: 1,
     });
 
     // Animasi text_2
     gsap.to("#text_2", {
       scrollTrigger: {
         trigger: "#text_2",
-        start: "top bottom", 
-        end: "top top", 
-        scrub: 1, 
+        start: "top bottom",
+        end: "top top",
+        scrub: 1,
       },
-      x: -800, 
-      duration: 1, 
+      x: -800,
+      duration: 1,
     });
   }, []);
   return (
     <div className={`sm:mt-16 mt-10`}>
       <div
-        className={`${styles.padding} min-h-[200px]`}
+        className={`min-h-[200px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What tech did I use to build this portfolio?</p>
