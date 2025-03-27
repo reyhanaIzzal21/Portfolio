@@ -219,16 +219,16 @@
 }
 
 .custom-text-outline {
-  -webkit-text-stroke: 2px rgb(119, 119, 119);
+  -webkit-text-stroke: 3px rgb(219, 219, 219);
 }
 .custom-text-outline .span-1 {
-  -webkit-text-stroke: 2px rgb(219 39 119);
+  -webkit-text-stroke: 1px rgb(219 39 119);
 }
 .custom-text-outline .span-2 {
-  -webkit-text-stroke: 2px rgb(37 99 235);
+  -webkit-text-stroke: 1px rgb(37 99 235);
 }
 .custom-text-outline .span-3 {
-  -webkit-text-stroke: 2px rgb(22 163 74);
+  -webkit-text-stroke: 1px rgb(22 163 74);
 }
 .custom-text-outline .span-4 {
   -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -477,4 +477,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.magic-border-wrapper {
+  position: relative;
+  border-radius: 1.5rem; /* Sesuai dengan rounded-3xl */
+}
+
+.magic-border-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -3px;    /* Sesuaikan nilai untuk ketebalan border */
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  background: linear-gradient(45deg, #ff00d4, #00a2ff, #ff00c8, #fbff00, #ff5e00, #0084ff, #9900f1);
+  background-size: 400% 400%;
+  border-radius: inherit;
+  z-index: -1;
+  animation: magicBorder 7s ease infinite;
+}
+
+@keyframes magicBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Container konten dengan clipping jika diperlukan */
+.magic-border-content {
+  border-radius: 1.5rem; /* agar sesuai dengan wrapper */
+  overflow: hidden;
 }
