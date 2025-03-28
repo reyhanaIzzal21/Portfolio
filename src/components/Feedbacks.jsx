@@ -80,7 +80,7 @@ const Feedbacks = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What tech did I use to build this portfolio?</p>
-          <h2 className={styles.sectionHeadText}>The tech i use.</h2>
+          <h2 className={styles.sectionHeadText}>The Tech I Use.</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 w-full flex flex-col gap-4 justify-center items-center`}>

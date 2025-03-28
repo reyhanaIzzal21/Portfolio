@@ -3,6 +3,7 @@ import BallCanvas from "./Ball";
 import ComputersCanvas from "./Computers";
 import StarsCanvas from "./Stars";
 import LetterGlitch from "./LetterGlitch";
+import Ballpit from "./Ballpit";
 
 export {
   EarthCanvas,
@@ -10,4 +11,5 @@ export {
   ComputersCanvas,
   StarsCanvas,
   LetterGlitch,
+  Ballpit,
 };

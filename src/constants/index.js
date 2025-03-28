@@ -18,6 +18,7 @@ import {
   canva,
   zentify,
   mycourse,
+  getskill,
 } from "../assets";
 
 export const navLinks = [
@@ -185,6 +186,31 @@ const projects = [
       },
     ],
     image: mycourse,
+    source_code_link: "https://github.com/ReyhanRefalda/my-course",
+  },
+  {
+    name: "GETSKILL",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum omnis enim quisquam vero alias pariatur non? Deleniti sapiente sit, voluptate eligendi quis nemo.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AJAX",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: getskill,
     source_code_link: "https://github.com/ReyhanRefalda/my-course",
   },
 ];

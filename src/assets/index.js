@@ -28,6 +28,7 @@ import hummatech from "./company/hummatech.png";
 
 import zentify from "./zentify.png";
 import mycourse from "./mycourse.png";
+import getskill from "./getskill.png";
 
 import herofoto from "./hero-foto.png";
 
@@ -55,5 +56,6 @@ export {
   hummatech,
   zentify,
   mycourse,
+  getskill,
   herofoto,
 };
